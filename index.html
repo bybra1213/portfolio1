@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merkaloy aka shalopp — 3D портфолио</title>
+<meta name="description" content="3D портфолио Merkaloy aka shalopp: оружие, персонажи, sci-fi/military, стилизованные модели и графика.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="logo">Merkaloy <span>aka shalopp</span></a>
+  <nav class="site-nav">
+    <a href="#work">Работы</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <p class="hero-eyebrow">3D artist / portfolio</p>
+  <h1>3D-модели, оружие, персонажи и графика для игр</h1>
+  <p>Подборка работ: стилизованные и реалистичные модели, UGC-пропсы, sci-fi/military персонажи, лого и анимации-турнтейблы. Работаю под заказ — пишите в любой из мессенджеров ниже.</p>
+  <div class="hero-links">
+    <a href="#work">Смотреть работы ↓</a>
+    <a href="#contact">Связаться</a>
+  </div>
+</section>
+
+<div class="filters" id="filters"></div>
+
+<main class="gallery" id="gallery"></main>
+<p class="empty-msg" id="empty-msg">Ничего не найдено в этой категории.</p>
+
+<section id="work"></section>
+
+<footer class="site-footer" id="contact">
+  <div>Merkaloy aka shalopp — 3D portfolio © 2026</div>
+  <div>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <div class="lightbox-stage" id="lightbox-stage">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Закрыть">×</button>
+      <button class="lightbox-nav prev" id="lightbox-prev" aria-label="Предыдущее">‹</button>
+      <button class="lightbox-nav next" id="lightbox-next" aria-label="Следующее">›</button>
+    </div>
+    <div class="lightbox-foot">
+      <span class="title" id="lightbox-title"></span>
+      <span id="lightbox-counter"></span>
+    </div>
+  </div>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
